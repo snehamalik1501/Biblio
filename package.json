@@ -1,0 +1,19 @@
+{
+  "name": "shelfspace-mysql",
+  "version": "1.0.0",
+  "description": "ShelfSpace — a personal digital library, with an antique-paper UI, an Express REST API, and a MySQL database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["library", "express", "mysql"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.6"
+  }
+}
