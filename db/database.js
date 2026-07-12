@@ -13,7 +13,7 @@ const config = {
 
 const DB_NAME = process.env.DB_NAME || 'shelfspace';
 
-async function init() {
+async function init(){
   const rootConn = await mysql.createConnection(config);
 
   const [dbs] = await rootConn.query(
