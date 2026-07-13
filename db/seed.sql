@@ -16,4 +16,3 @@ INSERT INTO books (title, author, category, year, copies) VALUES
 ('The Lean Startup', 'Eric Ries', 'Business', 2011, 4),
 ('Zero to One', 'Peter Thiel', 'Business', 2014, 3),
 ('The Art of War', 'Sun Tzu', 'Others', -500, 5),
-('Steal Like an Artist', 'Austin Kleon', 'Others', 2012, 3);
